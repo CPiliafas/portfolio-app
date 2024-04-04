@@ -29,7 +29,7 @@ function App() {
               <h3>Proficiencies</h3>
               <li>HTML</li>
               <li>CSS</li>
-              <li>JavaScript</li>
+              <li>JavaScript (React.js)</li>
               <li>WordPress/Elementor</li>
               <li>Squarespace</li>
               <li>C#</li>
@@ -37,7 +37,8 @@ function App() {
               <li>Microsoft Office</li>
               <li>Web Support</li>
               <li>Some Java Knowledge</li>
-              <li>Some experience utilizing SEO (Yoast Plugin on WordPress)</li>
+              <li>Some SEO Knowledge (Yoast Plugin on WordPress)</li>
+              <li>Web Accessibility Standards Knowledge</li>
               <li>Some SQL Knowledge</li>
               <li>Some AWS Experience</li>
               <br />
@@ -50,6 +51,7 @@ function App() {
             <p>Hello! I am Christos. Ever since I was young I have always had a fascination with websites and how they function, how they're designed, and the purposes and benefits websites can provide. On this site you will find some of my work and some of my proficiencies with web design and web development.</p>
             <p>I'm very passionate about creating websites that help benefit lots of people at large. Whether these pages are informative, filled with resources, or simply for entertainment purposes, I'm very passionate about working towards leaving a positive impact on others, and I feel that programming and web design is a great way for me to work towards that goal.</p>
             <p>I gradauted from Ferris State University in 2023, with both a Bachelor's Degree and Associate's Degree in Computer Information Systems.</p>
+            <h2><a href="https://github.com/CPiliafas">Github Repository</a></h2>
             <h2>Select DME Interns Work</h2>
               <ol><a href="https://www.dmeinterns.org/intern-policy/">Intern Policy</a></ol>
               <ol><a href="https://www.dmeinterns.org/web-development/">Web Development</a></ol>
@@ -59,16 +61,16 @@ function App() {
             <h2>Grand Traverse Internists Contract Work</h2>
               <ol>Over time, I have helped change aspects of the site's visuals. Such as layout, fonts, images, etc., while also testing functionality, accessibility, and SEO.</ol>
               <ol><a href="https://gtinternists.com/">Grand Traverse Internists Website</a></ol>
-            <ol><a href="https://github.com/CPiliafas">Github Repository</a></ol>
             <br></br>
-            <h2>Some Example Work + Links to GitHub Repositories</h2>
-            <ol><a href="https://github.com/CPiliafas/GalacticCafe">Galactic Cafe Page</a></ol>
-            <img src={gc1} alt="Galactic Cafe Image 1" width="900px" height="600px"/>
+            <h2>Some Example Work + Links to Respective GitHub Repositories</h2>
+            <ol><a href="https://github.com/CPiliafas/GalacticCafe">Galactic Cafe Page Repository</a></ol>
+            <img src={gc1} alt="Galactic Cafe Image 1" width="800px" height="500px"/>
             <br />
-            <img src={gc2} alt="Galactic Cafe Image 2" width="900px" height="600px"/>
+            <img src={gc2} alt="Galactic Cafe Image 2" width="800px" height="500px"/>
             <p>This project was for me to begin learning React.js as a framework as well as practicing with media queries. I wanted to create a mock up of a cafe business' web page. Through this project I was able to learn the basics of React and how much I enjoy the framework and wish to use it in the future.</p>
             <br />
-            <ol><a href="https://github.com/CPiliafas/MKXCompendium">Mortal Kombat X Fan Page</a></ol>
+            <h2><a href="https://github.com/CPiliafas/MKXCompendium">Mortal Kombat X Fan Page Repository</a></h2>
+            <p>This project was more for fun and to put some of my personality and interests into my work, something I really enjoy doing. I wanted to create a site of sorts with multiple links and different layouts of content. I was inspired by similar styled web pages for other video games I enjoy and wanted to try creating something similar and I'm satisfied with how it turned out.</p>
             <div class="responsive">
             <div class="gallery">
               <a target="_blank" href="/images/mkx1.png">
@@ -118,8 +120,7 @@ function App() {
           </div>
         </div>
         <br />
-            <p>This project was more for fun and to put some of my personality and interests into my work, something I really enjoy doing. I wanted to create a site of sorts with multiple links and different layouts of content. I was inspired by similar styled web pages for other video games I enjoy and wanted to try creating something similar and I'm satisfied with how it turned out.</p>
-          </article>
+          </article>          
             </div>
         </section>
         <footer>
