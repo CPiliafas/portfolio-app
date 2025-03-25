@@ -74,7 +74,6 @@ article {
 
 /* OL Style Formatting */
 ol {
-  text-align: center;
   font-size: 19px;
 }
 /* Style the header */
@@ -128,6 +127,12 @@ img {
   overflow-x:hidden;
 }
 
+/* Professional and Personal Work Sections */
+#section  {
+  text-align: left;
+  padding-left: 20px;
+}
+
 /* Other Code */
 p {
     font-size: 20px;
@@ -173,11 +178,11 @@ div.desc {
   }
 
   h2 {
-    font-size: 20px;
+    font-size: 24px;
   }
 
   h3 {
-    font-size: 17px;
+    font-size: 24px;
   }
 
   nav {

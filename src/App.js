@@ -51,6 +51,10 @@ function App() {
             <p>I'm very passionate about creating websites that help benefit lots of people at large. Whether these pages are informative, filled with resources, or simply for entertainment purposes, I'm very passionate about working towards leaving a positive impact on others, and I feel that programming and web design is a great way for me to work towards that goal.</p>
             <p>I graduated from Ferris State University in 2023, with both a Bachelor's Degree and Associate's Degree in Computer Information Systems.</p>
             <h2><a href="https://github.com/CPiliafas">Github Repository</a></h2>
+            <h2><b><u>Professional Work</u></b></h2>
+            <div id="section">
+            <h2><a href="https://gtifm.com">Grand Traverse Internal and Family Medicine Forms Website</a></h2>
+            <p>Built using Elementor on WordPress, this simple site features buttons that direct users to different pages within the site, each providing either a HIPAA compliant form or a file based on the user's needs. All form data is submitted to GTI securely.</p>
             <h2>Select DME Interns Work</h2>
               <ol><a href="https://www.dmeinterns.org/intern-policy/">Intern Policy</a></ol>
               <ol><a href="https://www.dmeinterns.org/web-development/">Web Development</a></ol>
@@ -59,8 +63,10 @@ function App() {
               <ol>During this internship, I was given the opportuniity to help create a website through SquareSpace that displayed and archived various Daily Trade Newsletter articles for the U.S. Embassy of Tokyo, Japan. Alongside another web developer intern, the two of us designed, updated, and managed the website. We also wrote documentation for updating and managing the website for when we left. We also formatted various articles near daily during the course of the internship.</ol>
             <h2><a href="https://gtinternists.com/">Grand Traverse Internists Contract Work</a></h2>
               <ol>Over time, I have helped change aspects of the site's visuals. Such as layout, fonts, images, etc., while also testing functionality, accessibility, and SEO.</ol>
+            </div>
             <br></br>
-            <h2>Some Example Work + Links to Respective GitHub Repositories</h2>
+            <h2>Personal Projects</h2>
+            <div id="section">
             <ol><a href="https://github.com/CPiliafas/GalacticCafe">Galactic Cafe Page Repository</a></ol>
             <a href={gc1} target="_blank">
             <img src={gc1} alt="Galactic Cafe Image 1" width="800px" height="500px"/></a>
@@ -78,6 +84,7 @@ function App() {
               </a>
               <div class="desc">This index page delivers a brief paragraph about the video game Mortal Kombat X. On the right half of the page is a grid featuring each of the playable fighters available in the game. Clicking one takes you to that character's dedidcated page.</div>
             </div>
+          </div>
           </div>
           <br />
 
